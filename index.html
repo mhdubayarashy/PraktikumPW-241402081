@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <title>MY Portfolio | Ubay Arashy</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+             aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#experience">Experience</a>
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                    <button id="toggle-mode" class="btn btn-light ms-3">Mode Terang</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center" id="home">
+        <img src="usu2.jpg" alt="gambar ubay" width="200" class="rounded-circle img-thumbnail" />
+        <h1 class="display-4">M. Ubay Arashy Supo Sembodo</h1>
+        <p class="lead">Mahasiswa Teknologi Informasi Universitas Sumatera Utara</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#273036" fill-opacity="0.75" d="M0,96L120,106.7C240,117,480,139,720,128C960,117,1200,75,1320,53.3L1440,32L1440,320L0,320Z"></path>
+        </svg>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 style="color: rgb(100, 99, 89)">About Me!</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">
+                    <p>
+                        Hallo! Saya M. Ubay Arashy, Saya Mahasiswa Teknologi Informasi di Universitas Sumatera Utara yang memiliki passion dalam olahraga khususnya sepak bola, Saya senang mempelajari hal-hal baru dan selalu berusaha untuk selalu
+                        belajar dan menjadi seseorang yang bermanfaat.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Dalam setiap proyek yang saya kerjakan, Saya mencoba melakukan yang terbaik dan sebisa saya. Walaupun terkadang Saya melakukan kesalahan namun saya akan terus bersikap profesional dalam proyek-proyek yang akan datang dan akan
+                        memberikan yang terbaik.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experience -->
+    <section id="experience">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>My Experience</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="pres.jpg" class="card-img-top" alt="p1" />
+                        <div class="card-body">
+                            <p class="card-text">Mencoba Terus Untuk Berprestasi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="sport.jpg" class="card-img-top" alt="p1" />
+                        <div class="card-body">
+                            <p class="card-text">Tidak Lupa Untuk Berolahraga</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="belajar.jpg" class="card-img-top" alt="p1" />
+                        <div class="card-body">
+                            <p class="card-text">Belajar dan Belajar hal-hal baru!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#6c757d" fill-opacity="1" d="M0,192L60,208C120,224,240,256,360,234.7C480,213,600,139,720,90.7C840,43,960,21,1080,53.3C1200,85,1320,171,1380,213.3L1440,256L1440,0L0,0Z"></path>
+        </svg>
+    </section>
+    <!-- akhir experience -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                            <small id="nameHelp" class="form-text text-muted">Masukkan nama lengkap Anda.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">Masukkan email Anda.</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="rgb(69, 67, 67)" fill-opacity="1" d="M0,64L30,58.7C60,53,120,43,180,53.3C240,64,300,96,360,128C420,160,480,192,540,202.7C600,213,660,192,720,160C780,128,840,85,900,64C960,43,1020,43,1080,64C1140,85,1200,128,1260,149.3C1320,171,1380,149,1410,138.7L1440,128L1440,320L0,320Z"></path>
+        </svg>
+    </section>
+    <!-- footer  -->
+    <footer class="text-white text-center fw-bold pb-5" style="background-color: rgb(69, 67, 67);">
+        <p>Created  by <a href="https://www.instagram.com/mhdubayarashy/profilecard/?igsh=MTlhY2NmOW9lZTY2Zg==" style="color: black;" class="fw-bold">Ubay Arashy</a></p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        const toggleMode = document.getElementById('toggle-mode');
+        toggleMode.addEventListener('click', function () {
+            document.body.classList.toggle('light-mode');
+            toggleMode.classList.toggle('btn-light');
+            toggleMode.classList.toggle('btn-dark');
+            toggleMode.textContent = toggleMode.classList.contains('btn-light') ? 'Mode Terang' : 'Mode Gelap';
+        });
+    </script>
+</body>
+</html>

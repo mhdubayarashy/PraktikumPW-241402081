@@ -1,0 +1,35 @@
+
+.jumbotron {
+  padding-top: 5rem;
+    background-color: grey;
+}
+
+.card {
+ color: black;
+}
+.light-mode .card {
+  background-color: black;
+  color: white;
+}
+.form-control {
+    background-color: #333;
+    color: white;
+    border: 1px solid #666;
+}
+
+.light-mode .form-control {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.form-text {
+    color: #b0b0b0;
+}
+
+.light-mode .form-text {
+    color: #555;
+}
+section {
+  padding-top: 5rem;
+}
